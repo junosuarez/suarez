@@ -1,11 +1,19 @@
+const boxen = require('boxen')
 const lolcat = require('lolcatjs')
 
-lolcat.options.seed = Math.round(Math.random() * 1000)
-
-lolcat.fromString(`
+const card = `
 juno suárez
+
+juno@suarez.email
 
 http://suarez.systems
 
+they/them
+
 npx suarez
-`)
+`.trim()
+
+// lolcat.options.seed = Math.round(Math.random() * 1000)
+lolcat.options.seed = 328
+console.log(lolcat.options.seed)
+lolcat.fromString(boxen(card, {padding: 1, margin: 1, borderStyle: 'round', float: 'center'}))

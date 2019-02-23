@@ -22,6 +22,7 @@
   },
   "homepage": "http://suarez.systems",
   "dependencies": {
+    "boxen": "^3.0.0",
     "lolcatjs": "^2.3.2"
   }
 }
