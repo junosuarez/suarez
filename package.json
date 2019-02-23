@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "npx card for suarez.systems",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "echo \"it's okay\""
   },
