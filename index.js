@@ -13,7 +13,5 @@ they/them
 npx suarez
 `.trim()
 
-// lolcat.options.seed = Math.round(Math.random() * 1000)
-lolcat.options.seed = 328
-console.log(lolcat.options.seed)
+lolcat.options.seed = Math.round(Math.random() * 1000)
 lolcat.fromString(boxen(card, {padding: 1, margin: 1, borderStyle: 'round', float: 'center'}))
