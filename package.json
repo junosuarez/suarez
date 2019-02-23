@@ -1,0 +1,27 @@
+{
+  "name": "suarez",
+  "version": "1.0.0",
+  "description": "npx card for suarez.systems",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"it's okay\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junosuarez/suarez.git"
+  },
+  "keywords": [
+    "npx",
+    "card"
+  ],
+  "author": "juno suárez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junosuarez/suarez/issues"
+  },
+  "homepage": "http://suarez.systems",
+  "dependencies": {
+    "lolcatjs": "^2.3.2"
+  }
+}
