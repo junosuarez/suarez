@@ -1,6 +1,6 @@
 {
   "name": "suarez",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npx card for suarez.systems",
   "main": "index.js",
   "bin": "cli.js",
